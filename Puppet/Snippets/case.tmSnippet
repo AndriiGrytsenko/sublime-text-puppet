@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>case \$${1:variable} {
-	"${2:value}": {
-		${3:# code}
-	}
-	default: {
-		${4:# code}
-	}
-}$0</string>
+	<string>  case \$${1:variable} {
+    "${2:value}": {
+      ${3:# code}
+    }
+    default: {
+      ${4:# code}
+    }
+  }$0</string>
 	<key>name</key>
 	<string>case</string>
 	<key>scope</key>

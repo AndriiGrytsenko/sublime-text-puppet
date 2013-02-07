@@ -3,13 +3,40 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string># Define: $1
-# Parameters:
-# $2
-#
-define ${1:name} (${2:arguments}) {
-	${3:# puppet code}
-}$0</string>
+	<string>  # == Define: $1
+  #
+  # Full description of defined resource type example_resource here.
+  #
+  # === Parameters
+  #
+  # Document parameters here
+  #
+  # [* $2 *]
+  #   If there is a parameter that defaults to the value of the title string
+  #   when not explicitly set, you must always say so.  This parameter can be
+  #   referred to as a "namevar," since it's functionally equivalent to the
+  #   namevar of a core resource type.
+  #
+  #
+  # === Examples
+  #
+  # Provide some examples on how to use this type:
+  #
+  #   example_class::example_resource { 'namevar':
+  #     basedir => '/tmp/src',
+  #   }
+  #
+  # === Authors
+  #
+  # Author Name author@example.com
+  #
+  # === Copyright
+  #
+  # Copyright 2011 Your name here, unless otherwise noted.
+  #
+  define ${1:name} (${2:arguments}) {
+    ${3:# puppet code}
+  }$0</string>
 	<key>name</key>
 	<string>define</string>
 	<key>scope</key>
